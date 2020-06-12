@@ -1,0 +1,11 @@
+#test{
+  border-style:none;
+}
+button:hover{
+background-color:darkgrey;
+}
+
+button{
+  width:75px;
+  text-align:center;
+}
