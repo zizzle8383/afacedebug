@@ -14,9 +14,11 @@ button{
   border-style:none;
 }
 #test{
+  position:fixed;
   height:75px;
   width:75px;
   text-align:center;
+  margin-left:50%;
 }
 .option{
   width:50px;
@@ -52,3 +54,10 @@ body{
   text-align:center;
 }
 
+#bgdiv{
+  
+  position:fixed;
+  background-color:grey;
+  width:100px;
+  height:450px;
+}
