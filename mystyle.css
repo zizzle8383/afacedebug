@@ -30,7 +30,6 @@ body{
 }
 
 #ps{
-  text-align:center;
   color:black;
   font-size:30px;
   background-color:#008b8b;
@@ -58,7 +57,7 @@ body{
 #bgdiv{
   
   position:fixed;
-  background-color:grey;
+  
   width:100px;
   height:450px;
 }
