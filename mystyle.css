@@ -22,3 +22,9 @@ button{
 body{
   background-image:url(tavern.png);
 }
+
+#ps{
+  color:black;
+  font-size:30px;
+  background-color:white;
+}
