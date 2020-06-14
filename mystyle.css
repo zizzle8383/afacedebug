@@ -14,11 +14,16 @@ button{
   border-style:none;
 }
 #test{
+  background-color:#009b8c;
   position:fixed;
   height:75px;
   width:75px;
   text-align:center;
-  margin-left:50%;
+  left:500px;
+}
+#test:hover{
+  border-style:solid;
+  border-color:#009b8c;
 }
 .option{
   width:50px;
