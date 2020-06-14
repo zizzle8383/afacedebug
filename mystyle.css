@@ -5,7 +5,17 @@ button:hover{
 background-color:darkgrey;
 }
 
+
 button{
+  width:100px;
+  height:100px;
+}
+#test{
+  height:75px;
   width:75px;
   text-align:center;
+}
+.option{
+  width:50px;
+  height:50px;
 }
