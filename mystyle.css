@@ -9,6 +9,8 @@ background-color:darkgrey;
 button{
   width:100px;
   height:100px;
+  background-color:lightgrey;
+  border-style:none;
 }
 #test{
   height:75px;
