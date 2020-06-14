@@ -11,6 +11,7 @@ function doscore(){
   document.getElementById("end").innerHTML = "Correct Combo:"+eyed+","+mouthid+"."
   document.getElementById("end2").innerHTML = "Your Combo:"+id1+","+id2+"."
      document.getElementById("test").style.display = "block"
+     document.getElementById("bgdiv").style.backgroundColor = "transparent"
 }
 
 
@@ -98,9 +99,9 @@ function startround(){
   <br>
   <br>
   <br>
-
+  <br>
  
- <div id="bgdiv">
+ <div id="bgdiv" style="background-color:grey;">
  <button class ="ob" onclick = "Set1(1)" id = "optionbutton1" style="display:none;"><img class="option" id="option1" src ="eyes1.png" width="25px" height="25px"></button>
  <button class ="ob" onclick = "Set1(2)" id = "optionbutton2" style="display:none;"><img class="option" id="option2" src ="eyes2.png" width="25px" height="25px"></button>
  <button class ="ob" onclick = "Set1(3)" id = "optionbutton3" style="display:none;"><img class="option" id="option3" src ="eyes3.png" width="25px" height="25px"></button>
