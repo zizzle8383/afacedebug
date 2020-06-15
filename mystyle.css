@@ -15,13 +15,9 @@ button{
 }
 #test{
   background-color:#009b8c;
-  
-  height:100px;
-  width:100px;
+  height:75px;
+  width:75px;
   text-align:center;
-  
-
-
 }
 #test:hover{
   border-style:solid;
