@@ -7,11 +7,11 @@ var count = 0
 function doscore(){
      document.getElementById("coins").style.display = "block"
      if (id1 == eyed){
-       score = score+50;
+       score = score+5;
        money = money+50;
      }
      if (id2 == mouthid){
-       score =  score+50;
+       score =  score+5;
        money = money+50;
      }
        document.getElementById("end").innerHTML = "YOUR SCORE:"
