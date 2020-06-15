@@ -78,6 +78,7 @@ function conti(){
 
 
 function startround(){
+     score = 0
     document.getElementById("coins").style.display = "none"
   document.getElementById("bgdiv").style.backgroundColor = "grey"
    eyed = Math.floor((Math.random() * 4) + 1);
