@@ -5,6 +5,7 @@ var score = 0
 var count = 0
 
 function doscore(){
+     document.getElementById("coins").style.display = "block"
      if (id1 == eyed){
        score = score+50
        
@@ -74,6 +75,7 @@ function conti(){
 
 
 function startround(){
+    document.getElementById("coins").style.display = "none"
   document.getElementById("bgdiv").style.backgroundColor = "grey"
    eyed = Math.floor((Math.random() * 4) + 1);
    mouthid = Math.floor((Math.random() * 4) + 1);
