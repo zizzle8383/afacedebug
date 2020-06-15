@@ -1,3 +1,6 @@
+body{
+  margin:0;
+}
 #test{
   border-style:none;
 }
@@ -31,6 +34,9 @@ body{
 }
 
 #ps{
+  vertical-align:top;
+  margin-top:0;
+  padding:10px;
   color:black;
   font-size:30px;
   background-color:#008b8b;
