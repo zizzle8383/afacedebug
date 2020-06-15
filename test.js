@@ -5,8 +5,15 @@ var score = 0
 var count = 0
 
 function doscore(){
-  document.getElementById("end").innerHTML = "Correct Combo:"+eyed+","+mouthid+"."
-  document.getElementById("end2").innerHTML = "Your Combo:"+id1+","+id2+"."
+     if (id1 == eyed){
+       score = score+50
+       
+     }
+     if (id2 == mouthid){
+       score =  score+50;
+     }
+       document.getElementById("end").innerHTML = "Your Score:"
+  document.getElementById("end2").innerHTML = score
      document.getElementById("test").style.display = "block"
      document.getElementById("bgdiv").style.backgroundColor = "transparent"
 }
