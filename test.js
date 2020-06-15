@@ -1,7 +1,7 @@
 var id1
 var id2
 var score = 0
-
+var money = 0
 var count = 0
 
 function doscore(){
@@ -17,6 +17,8 @@ function doscore(){
   document.getElementById("end2").innerHTML = score
      document.getElementById("test").style.display = "block"
      document.getElementById("bgdiv").style.backgroundColor = "transparent"
+     money = money + score
+     document.getElementByClassName("moneytext").innerHTML = money
 }
 
 
