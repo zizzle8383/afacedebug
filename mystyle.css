@@ -90,9 +90,10 @@ body{
   width:100px;
 }
 .moneytext{
+  text-align:center;
   font-family:bc;
   color:gold;
   position:relative;
-  bottom:42.5px;
+  bottom:45px;
   left:30px;
 }
