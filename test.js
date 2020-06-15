@@ -18,7 +18,7 @@ function doscore(){
      document.getElementById("test").style.display = "block"
      document.getElementById("bgdiv").style.backgroundColor = "transparent"
      money = money + score
-     document.getElementByClassName("moneytext")[0].innerHTML = money
+     document.getElementsByClassName("moneytext")[0].innerHTML = money
 }
 
 
