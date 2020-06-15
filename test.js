@@ -14,7 +14,7 @@ function doscore(){
        score =  score+50;
        money = money+50;
      }
-       document.getElementById("end").innerHTML = "Your Score:"
+       document.getElementById("end").innerHTML = "YOUR SCORE:"
   document.getElementById("end2").innerHTML = score
      document.getElementById("test").style.display = "block"
      document.getElementById("bgdiv").style.backgroundColor = "transparent"
@@ -85,7 +85,7 @@ function startround(){
    document.getElementById("eyes").src = "eyes"+eyed+".png"
    document.getElementById("mouth").src = "mouth"+mouthid+".png"
    document.getElementById("test").style.display = "none"
-   document.getElementById("end2").innerHTML = "Game Is In Progress"
+   document.getElementById("end2").innerHTML = "GAME IS IN PROGRESS"
    document.getElementById("end").innerHTML = "-------------------"
    setTimeout(conti, 2000)
 }
