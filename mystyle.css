@@ -82,6 +82,7 @@ body{
   
 }
 #coins{
+  display:block;
   background-repeat:no-repeat;
   height:100px;
 }
