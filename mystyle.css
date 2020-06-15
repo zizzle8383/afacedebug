@@ -19,10 +19,7 @@ button{
   width:75px;
   text-align:center;
 }
-#test:hover{
-  border-style:solid;
-  border-color:#009b8c;
-}
+
 .option{
   width:50px;
   height:50px;
