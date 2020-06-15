@@ -68,8 +68,22 @@ body{
 
 #bgdiv{
   
-  position:fixed;
+  position:absolute;
   
   width:100px;
   height:450px;
+  
+}
+#coins{
+  background-repeat:no-repeat;
+  height:100px;
+}
+#coin{
+  width:100px;
+}
+.moneytext{
+  color:gold;
+  position:relative;
+  bottom:45px;
+  left:30px;
 }
