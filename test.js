@@ -43,7 +43,7 @@ function doscore(){
 function Combotest2(){
    document.getElementById("eyes").src = "eyes"+eyed+".png"
    document.getElementById("mouth").src = "mouth"+mouthid+".png"
-   document.getElementById("end1").innerHTML = "Correct Combo."
+   document.getElementById("end").innerHTML = "Correct Combo."
    setTimeout(doscore, 2000)
 }
 
@@ -58,7 +58,7 @@ function Combotest2(){
 function Combotest1(){
    document.getElementById("eyes").src = "eyes"+id1+".png"
    document.getElementById("mouth").src = "mouth"+id2+".png"
-   document.getElementById("end1").innerHTML = "Your Combo."
+   document.getElementById("end").innerHTML = "Your Combo."
    setTimeout(Combotest2, 2000)
 }
 
