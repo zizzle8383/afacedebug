@@ -36,7 +36,7 @@ function doscore(){
       document.getElementById("bgdiv").style.backgroundColor = "transparent"
       document.getElementById("end").innerHTML = "YOU RAN OUT OF HEALTH!"
       document.getElementById("end2").innerHTML =     "Final Score: "+score+"."
-}
+    }
 }
 
 
