@@ -1,3 +1,4 @@
+
 var id1
 var id2
 var score = 0
@@ -35,7 +36,7 @@ function doscore(){
       document.getElementById("end").innerHTML = "YOU RAN OUT OF HEALTH!"
       document.getElementById("end2").innerHTML =     "Final Score: "+score+"."
 }
-
+}
 
 
 function endd(){
