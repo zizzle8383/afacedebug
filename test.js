@@ -23,12 +23,16 @@ function doscore(){
        Health = Health - 0.5
      }
      //check two
+     if (Health > 0){
        document.getElementById("end").innerHTML = "YOUR SCORE: "+score+"!"
   document.getElementById("end2").innerHTML =     "Remaining Health: "+Health+"."
      document.getElementById("test").style.display = "block"
      document.getElementById("bgdiv").style.backgroundColor = "transparent"
     
      document.getElementsByClassName("moneytext")[0].innerHTML = money
+     }else{
+      document.getElementById("end").innerHTML = "YOU RAN OUT OF HEALTH!"
+      document.getElementById("end2").innerHTML =     "Final Score: "+score+"."
 }
 
 
