@@ -29,7 +29,7 @@ function doscore(){
   document.getElementById("end2").innerHTML =     "Remaining Health: "+Health+"."
      document.getElementById("test").style.display = "block"
      document.getElementById("bgdiv").style.backgroundColor = "transparent"
-    
+
      document.getElementsByClassName("moneytext")[0].innerHTML = money
      }else{
       document.getElementsByClassName("moneytext")[0].innerHTML = money
@@ -38,6 +38,30 @@ function doscore(){
       document.getElementById("end2").innerHTML =     "Final Score: "+score+"."
     }
 }
+
+
+function Combotest2(){
+   document.getElementById("eyes").src = "eyes"+eyed+".png"
+   document.getElementById("mouth").src = "mouth"+mouthid+".png"
+   document.getElementById("Correct").innerHTML = "Correct Combo."
+   setTimeout(doscore, 2000)
+}
+
+
+
+
+
+
+
+
+
+function Combotest1(){
+   document.getElementById("eyes").src = "eyes"+id1+".png"
+   document.getElementById("mouth").src = "mouth"+id2+".png"
+   document.getElementById("Correct").innerHTML = "Your Combo."
+   setTimeout(Combotest2, 2000)
+}
+
 
 
 function endd(){
@@ -50,7 +74,7 @@ function endd(){
    document.getElementById("optionbutton7").style.display = "none"
    document.getElementById("optionbutton8").style.display = "none"
 
-   doscore()
+   Combotest1()
 
   
 }
@@ -74,9 +98,10 @@ function clear1(){
 
 
 function Set1(id){
-
+  
   id1 = parseInt(id)
   count = 1
+
   clear1();
 }
 
