@@ -3,19 +3,28 @@ var id2
 var score = 0
 var money = 0
 var count = 0
-
+var Health = 5 // Temporary value
 function doscore(){
      document.getElementById("coins").style.display = "block"
+     
      if (id1 == eyed){
        score = score+5;
        money = money+50;
      }
+     else{
+        Health = Health - 0.5
+     }
+     //Check one 
      if (id2 == mouthid){
        score =  score+5;
        money = money+50;
      }
-       document.getElementById("end").innerHTML = "YOUR SCORE:"
-  document.getElementById("end2").innerHTML = score
+     else{
+       Health = Health - 0.5
+     }
+     //check two
+       document.getElementById("end").innerHTML = "YOUR SCORE: "+score+"!"
+  document.getElementById("end2").innerHTML =     "Remaining Health: "+Health+"."
      document.getElementById("test").style.display = "block"
      document.getElementById("bgdiv").style.backgroundColor = "transparent"
     
