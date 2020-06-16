@@ -6,6 +6,8 @@ var money = 0
 var count = 0
 var Health = 5 // Temporary value
 function doscore(){
+        document.getElementById("eyes").src = ""
+   document.getElementById("mouth").src = ""
      document.getElementById("coins").style.display = "block"
      
      if (id1 == eyed){
@@ -43,7 +45,7 @@ function doscore(){
 function Combotest2(){
    document.getElementById("eyes").src = "eyes"+eyed+".png"
    document.getElementById("mouth").src = "mouth"+mouthid+".png"
-   document.getElementById("end").innerHTML = "Correct Combo."
+   document.getElementById("end2").innerHTML = "Correct Combo."
    setTimeout(doscore, 2000)
 }
 
@@ -58,7 +60,7 @@ function Combotest2(){
 function Combotest1(){
    document.getElementById("eyes").src = "eyes"+id1+".png"
    document.getElementById("mouth").src = "mouth"+id2+".png"
-   document.getElementById("end").innerHTML = "Your Combo."
+   document.getElementById("end2").innerHTML = "Your Combo."
    setTimeout(Combotest2, 2000)
 }
 
