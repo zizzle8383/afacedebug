@@ -101,3 +101,24 @@ body{
   bottom:41px;
   left:40px;
 }
+#play{
+ padding:0;
+  z-index:10;
+  left:0;
+  right:0;
+  top:50%;
+  position:fixed;
+  vertical-align:top;
+  margin-top:0;
+  color:black;
+  font-size:30px;
+  text-align:center;
+}
+a{
+  z-index:10;
+  background-color:darkgrey;
+  font-family:bc;
+  color:black;
+  font-size:50px;
+  text-decoration:none;
+}
