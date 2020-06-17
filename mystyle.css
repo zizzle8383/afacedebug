@@ -1,124 +1,115 @@
 @font-face {
-  font-family: BC;
-  src: url(luckiest-guy.regular.ttf);
+	font-family: BC;
+	src: url(luckiest-guy.regular.ttf);
 }
 
-body{
-    overflow: hidden;
-  margin:0;
-}
-#test{
-  border-style:none;
-}
-button:hover{
-background-color:darkgrey;
-
+body {
+	overflow: hidden;
+	margin: 0;
+	background-color: cyan;
 }
 
-
-button{
-  background-color:grey;
-  width:100px;
-  height:100px;
-  border-style:none;
-}
-#test{
-  font-family:bc;
-  height:25px;
-  background-color:#009b8c;
-  width:75px;
-  text-align:center;
+a {
+	z-index: 10;
+	background-color: darkgrey;
+	font-family: bc;
+	color: black;
+	font-size: 50px;
+	text-decoration: none;
 }
 
-.option{
-  width:50px;
-  height:50px;
-
+button {
+	background-color: grey;
+	width: 100px;
+	height: 100px;
+	border-style: none;
 }
-body{
-  background-color:cyan;
-}
-
-#ps{
-  font-family:bc;
-  z-index:-1;
-  left:0;
-  right:0;
-  top:1px;
-  position:fixed;
-  vertical-align:top;
-  margin-top:0;
-  margin-left:0;
-  margin-right:0;
-  color:black;
-  font-size:30px;
-  background-color:#008b8b;
-  text-align:center;
+button:hover {
+	background-color: darkgrey;
 }
 
-#div1{
-  display:inline-block;
-  position:fixed;
-  margin-top:-100px;
-  margin-left:-100px;
-  top:50%;
-  left:50%;
-  text-align:center;
-  
+#test {
+	border-style: none;
+	font-family: bc;
+	height: 25px;
+	background-color: #009b8c;
+	width: 75px;
+	text-align: center;
 }
 
-.ob{
-    
-
-  margin-top:10px;
-  top:50%;
-  left:50%;
-  text-align:center;
+#play {
+	padding: 0;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 50%;
+	position: fixed;
+	vertical-align: top;
+	margin-top: 0;
+	color: black;
+	font-size: 30px;
+	text-align: center;
 }
 
-#bgdiv{
-  
-  position:absolute;
-  
-  width:100px;
-  height:450px;
-  
-}
-#coins{
-  display:block;
-  background-repeat:no-repeat;
-  height:100px;
+#ps {
+	font-family: bc;
+	z-index: -1;
+	left: 0;
+	right: 0;
+	top: 1px;
+	position: fixed;
+	vertical-align: top;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	color: black;
+	font-size: 30px;
+	background-color: #008b8b;
+	text-align: center;
 }
 
-#coin{
-  width:100px;
+#div1 {
+	display: inline-block;
+	position: fixed;
+	margin-top: -100px;
+	margin-left: -100px;
+	top: 50%;
+	left: 50%;
+	text-align: center;
 }
-.moneytext{
-  
-  font-family:bc;
-  color:gold;
-  position:relative;
-  bottom:41px;
-  left:40px;
+
+#bgdiv {
+	position: absolute;
+	width: 100px;
+	height: 450px;
 }
-#play{
- padding:0;
-  z-index:10;
-  left:0;
-  right:0;
-  top:50%;
-  position:fixed;
-  vertical-align:top;
-  margin-top:0;
-  color:black;
-  font-size:30px;
-  text-align:center;
+
+#coins {
+	display: block;
+	background-repeat: no-repeat;
+	height: 100px;
 }
-a{
-  z-index:10;
-  background-color:darkgrey;
-  font-family:bc;
-  color:black;
-  font-size:50px;
-  text-decoration:none;
+
+#coin {
+	width:100px;
+}
+
+.option {
+	width: 50px;
+	height: 50px;
+}
+
+.ob {
+	margin-top: 10px;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+}
+
+.moneytext {
+	font-family: bc;
+	color: gold;
+	position: relative;
+	bottom: 41px;
+	left: 40px;
 }
