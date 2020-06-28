@@ -13,7 +13,7 @@ function doscore() {
 	// check eyes
 	if (id1 == eyed) {
 		score = score + 5;
-		money = money + 50;
+		money = money + 5;
 	} else {
 		health = health - 0.5;
 	}
@@ -21,7 +21,7 @@ function doscore() {
 	// check mouth
 	if (id2 == mouthid) {
 		score = score + 5;
-		money = money + 50;
+		money = money + 5;
 	} else {
 		health = health - 0.5;
 	}
