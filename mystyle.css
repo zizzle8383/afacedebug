@@ -4,6 +4,7 @@
 }
 
 body {
+	 background-image:url(Web_page_background.png);
 	overflow: hidden;
 	margin: 0;
 	background-color: cyan;
@@ -65,7 +66,7 @@ button:hover {
 	margin-right: 0;
 	color: black;
 	font-size: 30px;
-	background-color: #008b8b;
+	background-color: cyan;
 	text-align: center;
 }
 
