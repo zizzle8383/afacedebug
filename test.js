@@ -41,15 +41,15 @@ function doscore() {
 }
 
 function Combotest2() {
-	document.getElementById("eyes").src = `eyes${eyed}.png`;
-	document.getElementById("mouth").src = `mouth${mouthid}.png`;
+	document.getElementById("eyes").src = `images/eyes/eyes${eyed}.png`;
+	document.getElementById("mouth").src = `images/mouths/mouth${mouthid}.png`;
 	document.getElementById("end2").innerHTML = "Correct Combo.";
 	setTimeout(doscore, 2000);
 }
 
 function Combotest1() {
-	document.getElementById("eyes").src = "eyes" + id1 + ".png";
-	document.getElementById("mouth").src = "mouth" + id2 + ".png";
+	document.getElementById("eyes").src = "images/eyes/eyes" + id1 + ".png";
+	document.getElementById("mouth").src = "images/mouths/mouth" + id2 + ".png";
 	document.getElementById("end2").innerHTML = "Your Combo.";
 	setTimeout(Combotest2, 2000);
 }
@@ -107,8 +107,8 @@ function startround() {
 	eyed = Math.floor(Math.random() * 4) + 1;
 	mouthid = Math.floor(Math.random() * 4) + 1;
 
-	document.getElementById("eyes").src = `eyes${eyed}.png`;
-	document.getElementById("mouth").src = `mouth${mouthid}.png`;
+	document.getElementById("eyes").src = `images/eyes/eyes${eyed}.png`;
+	document.getElementById("mouth").src = `images/mouths/mouth${mouthid}.png`;
 	document.getElementById("test").style.display = "none";
 	document.getElementById("end2").innerHTML = "GAME IS IN PROGRESS";
 	document.getElementById("end").innerHTML = "-------------------";
