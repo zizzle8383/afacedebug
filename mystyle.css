@@ -85,6 +85,7 @@ button:hover {
 }
 
 #bgdiv {
+	top:50%;
 	position: absolute;
 	width: 100px;
 	height: 450px;
