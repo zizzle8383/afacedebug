@@ -6,8 +6,7 @@ var count = 0;
 var health = 5; // Temporary value
 
 function doscore() {
-	document.getElementById("eyes").src = "";
-	document.getElementById("mouth").src = "";
+        document.getElementById("hamster").src = "images/Critters/BlankBack.png";
 	document.getElementById("coins").style.display = "block";
 
 	// check eyes
@@ -41,15 +40,14 @@ function doscore() {
 }
 
 function Combotest2() {
-	document.getElementById("eyes").src = `images/eyes/eyes${eyed}.png`;
-	document.getElementById("mouth").src = `images/mouths/mouth${mouthid}.png`;
+document.getElementById("hamster").src = "images/Critters/eye" + eyed + "mouth"+ mouthid +".png";
 	document.getElementById("end2").innerHTML = "Correct Combo.";
 	setTimeout(doscore, 2000);
 }
 
 function Combotest1() {
-	document.getElementById("eyes").src = "images/eyes/eyes" + id1 + ".png";
-	document.getElementById("mouth").src = "images/mouths/mouth" + id2 + ".png";
+	document.getElementById("hamster").src = "images/Critters/eye" + id1 + "mouth"+ id2 +".png";
+
 	document.getElementById("end2").innerHTML = "Your Combo.";
 	setTimeout(Combotest2, 2000);
 }
@@ -92,8 +90,7 @@ function Set1(id) {
 }
 
 function conti() {
-	document.getElementById("eyes").src = "";
-	document.getElementById("mouth").src = "";
+       document.getElementById("hamster").src = "images/Critters/BlankBack.png";
 	document.getElementById("optionbutton1").style.display = "block";
 	document.getElementById("optionbutton2").style.display = "block";
 	document.getElementById("optionbutton3").style.display = "block";
@@ -107,8 +104,7 @@ function startround() {
 	eyed = Math.floor(Math.random() * 4) + 1;
 	mouthid = Math.floor(Math.random() * 4) + 1;
 
-	document.getElementById("eyes").src = `images/eyes/eyes${eyed}.png`;
-	document.getElementById("mouth").src = `images/mouths/mouth${mouthid}.png`;
+        document.getElementById("hamster").src = "images/Critters/eye" + eyed + "mouth"+ mouthid +".png";
 	document.getElementById("test").style.display = "none";
 	document.getElementById("end2").innerHTML = "GAME IS IN PROGRESS";
 	document.getElementById("end").innerHTML = "-------------------";
