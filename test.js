@@ -107,6 +107,6 @@ function startround() {
         document.getElementById("hamster").src = "images/Critters/eye" + eyed + "mouth"+ mouthid +".png";
 	document.getElementById("test").style.display = "none";
 	document.getElementById("end2").innerHTML = "GAME IS IN PROGRESS";
-	document.getElementById("end").innerHTML = "-------------------";
+	document.getElementById("end").innerHTML = "";
 	setTimeout(conti, 2000);
 }
