@@ -7,7 +7,7 @@ var health = 5; // Temporary value
 
 function doscore() {
         document.getElementById("hamster").src = "images/Critters/BlankBack.png";
-	document.getElementById("coins").style.display = "block";
+
 
 	// check eyes
 	if (id1 == eyed) {
