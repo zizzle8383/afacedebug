@@ -25,7 +25,7 @@ function doscore() {
 		health = health - 0.5;
 	}
 	// money
-	document.getElementsByClassName("moneytext")[0].innerHTML = money;
+	
 
 	if (health > 0) {
 		document.getElementById("end").innerHTML = `YOUR SCORE: ${score}!`;
@@ -98,7 +98,7 @@ function conti() {
 }
 
 function startround() {
-	document.getElementById("coins").style.display = "none";
+
 	document.getElementById("bgdiv").style.backgroundColor = "grey";
 
 	eyed = Math.floor(Math.random() * 4) + 1;
