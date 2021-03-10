@@ -78,10 +78,7 @@ button:hover {
 	top: 50%;
 	left: 50%;
 	text-align: center;
-	animation-name: test;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate-reverse;
+
 }
 
 #bgdiv {
@@ -123,7 +120,4 @@ button:hover {
 	bottom: 41px;
 	left: 40px;
 }
-@keyframes test{
-  from{left:45%;}
-  to{left:55%;}
-}
+
