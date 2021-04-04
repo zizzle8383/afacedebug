@@ -20,7 +20,7 @@ body {
 	text-decoration: none;
 }
 
-#startbutton {
+.otherbuttons {
 	background-color: grey;
 	width: 100px;
 	height: 100px;
