@@ -46,9 +46,6 @@ button:hover {
 	right: 0;
 	top: 50%;
 	position: fixed;
-	vertical-align: top;
-	margin-top: 0;
-	color: black;
 	font-size: 30px;
 	text-align: center;
 }
