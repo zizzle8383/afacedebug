@@ -10,7 +10,7 @@ body {
 	background-color: cyan;
 }
 
-a {
+#playbutton {
 	z-index: 10;
 	padding:10px;
 	background-color: darkgrey;
