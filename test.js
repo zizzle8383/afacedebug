@@ -4,6 +4,9 @@ var score = 0;
 var money = 0;
 var count = 0;
 var health = 5; // Temporary value
+//good things come with time 
+// like penguins tipping an iceberg 
+// a while, it will take.
 
 function doscore() {
         document.getElementById("hamster").src = "images/Critters/BlankBack.png";
