@@ -37,8 +37,9 @@ button:hover {
 	background-color: #009b8c;
 	width: 75px;
 	text-align: center;
-	-ms-transform: translate(-50%, -50%);
-         transform: translate(-50%, -50%);
+
+         position:absolute;
+         width:162.5px;
 }
 
 #play {
