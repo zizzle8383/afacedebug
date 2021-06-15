@@ -13,14 +13,14 @@ body {
 #playbutton {
 	z-index: 10;
 	padding:10px;
-	background-color: darkgrey;
+	background-color: grey;
 	font-family: bc;
 	color: black;
 	font-size: 50px;
 	text-decoration: none;
 }
 #playbutton:hover{
-	background-color:darkslategrey;
+	background-color:darkgrey;
 }
 
 .otherbuttons {
@@ -43,6 +43,9 @@ button:hover {
 
          position:absolute;
          width:162.5px;
+}
+#test:hover{
+	background-color: #027b70;
 }
 
 #play {
