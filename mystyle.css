@@ -19,6 +19,9 @@ body {
 	font-size: 50px;
 	text-decoration: none;
 }
+#playbutton:hover{
+	background-color:darkslategrey;
+}
 
 .otherbuttons {
 	background-color: grey;
