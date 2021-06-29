@@ -142,5 +142,5 @@ button:hover {
 	height:100%;
 	text-align:center;
 	background-color:cyan;
-	
+	z-index:-1;
 }
