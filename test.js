@@ -38,7 +38,7 @@ function doscore() {
 		document.getElementById("bgdiv").style.backgroundColor = "transparent";
 		document.getElementById("end").innerHTML = "YOU RAN OUT OF HEALTH!";
 		document.getElementById("end2").innerHTML = `Final Score: ${score}.`;
-		if localStorage.getItem("score") == undefined or localStorage.getItem("score") < score{
+		if (localStorage.getItem("score") == undefined or localStorage.getItem("score") < score){
 			
 		localStorage.setItem("score",score)
 		}
