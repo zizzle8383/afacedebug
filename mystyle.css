@@ -144,3 +144,7 @@ button:hover {
 	background-color:cyan;
 	z-index:-1;
 }
+#Scorebox{
+	background-color:grey;
+	font-family:bc;
+}
