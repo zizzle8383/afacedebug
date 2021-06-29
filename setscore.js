@@ -1,4 +1,4 @@
-function load(){
+window.onload = function (){
   x = localStorage.getItem("score")
   console.log("executing..")
   if (x == undefined || x == null){
