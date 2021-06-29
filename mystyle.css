@@ -145,8 +145,11 @@ button:hover {
 	z-index:-1;
 }
 #Scorebox{
-	top: 75%;
+top: 75%;
+	width:50%;
+	left:25%;
 	background-color:grey;
 	font-family:bc;
-	width:25%;
+	position:absolute;
+
 }
