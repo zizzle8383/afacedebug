@@ -145,6 +145,7 @@ button:hover {
 	z-index:-1;
 }
 #Scorebox{
+	top: 75%;
 	background-color:grey;
 	font-family:bc;
 }
