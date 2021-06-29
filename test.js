@@ -4,7 +4,7 @@ var score = 0;
 var money = 0;
 var count = 0;
 var health = 5; // Temporary value
-//Your wait shall soon be over, a few days it may take.
+//The wait is a bit longer than expected, dont worry, the holidays are near, this will become a full time project...
 //...
 
 function doscore() {
